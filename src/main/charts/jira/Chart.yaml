@@ -23,12 +23,12 @@ version: 0.0.1
 appVersion: 8.11.0
 
 dependencies:
-  - name: postgresql
-    version: ~9.4
-    repository: https://charts.bitnami.com/bitnami
-    condition: postgresql.enabled
-    tags:
-      - postgres
+  # - name: postgresql
+  #   version: ~9.4
+  #   repository: https://charts.bitnami.com/bitnami
+  #   condition: postgresql.enabled
+  #   tags:
+  #     - postgres
 
 sources:
   - https://hub.docker.com/r/xalt/jira
